@@ -47,7 +47,7 @@ msg = Label(root,text="Message ",font="comicsans 13").grid(row=2,column=1,column
 
 msginput = Entry(root,font="comicsans 16",textvariable=messagein).grid(row=3,column=1,columnspan=2,padx=10,pady=10)
 
-submit = Button(root, text="Submit",font="comicsans 10",command=al).grid(row=4,column=1,columnspan=2)
+submit = Button(root, text="Set Alarm",font="comicsans 10",command=al).grid(row=4,column=1,columnspan=2)
 
 
 
